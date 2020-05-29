@@ -5,8 +5,8 @@ app.set("view engine","ejs");
 var connection=mysql.createConnection({
 host: "localhost",
 user: "root",
-password: "password",   
-database: "python"
+password: ,   
+database: 
 });
 connection.connect()
 
